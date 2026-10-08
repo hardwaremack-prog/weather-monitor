@@ -191,7 +191,7 @@
         }
 
         function updateTempCard(key, tempF, condition) {
-            const card = document.getElementById(`card-${key}`);
+            let card = document.getElementById(`card-${key}`);
             
             if (!card) {
                 // Create new card
